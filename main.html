@@ -7,7 +7,27 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+	<form method="post">
+		<label for="name">Name</label>
+		<input id="name" type="text" required placeholder="at least 3 characters and a maximum of 50 characters to be valid" />
+		<br>
+		<label for='portfolio'>Portfolio</label>
+	<input type="url" required id="portfolio"/>
+	<br>
+	<label for="favcolor">favColor</label>
+	<select id="favColor">
+		<option>red</option>
+		<option>green</option>
+		<option>black</option>
+		<option>white</option>
+	</select>
+	<br>
+	<div class="slidecontainer">
+		<input type="range" min="1" max="100" value="50" class="slider" id="likeness">
+	  </div>
+
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
